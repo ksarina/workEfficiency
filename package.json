@@ -1,0 +1,26 @@
+{
+  "name": "operationreport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.18.0",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "luxon": "^3.4.4",
+    "mysql2": "^3.10.2",
+    "node-schedule": "^2.1.1",
+    "qs": "^6.12.1",
+    "sequelize": "^6.37.3"
+  },
+  "type": "module"
+}
